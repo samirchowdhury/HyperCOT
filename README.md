@@ -1,5 +1,5 @@
 ![hypergraphs](figures/hypergraph-simplify.png)
-## HyperCOT: Hypergraph Co-Optimal Transport
+# HyperCOT: Hypergraph Co-Optimal Transport
 
 This repository contains code related to the paper `Hypergraph Co-Optimal Transport: Metric and Categorical Properties` by Samir Chowdhury, Tom Needham, Ethan Semrad, Bei Wang, and Youjia Zhou.
 
@@ -19,3 +19,24 @@ pip install -r requirements.txt
 The main dependencies for our package are:
 - Python Optimal Transport (https://pythonot.github.io/)
 - HyperNetX (https://github.com/pnnl/HyperNetX)
+
+
+Additionally, we utilize code from:
+- Redko, Vayer, Flamary, Courty (2020), _CO-Optimal Transport_
+    - https://github.com/PythonOT/COOT
+- Zhou, Rathore, Purvine, Wang (2021), _Topological Simplifications of Hypergraphs_
+    - https://github.com/tdavislab/Hypergraph-Vis
+- Do, Yoon, Hooi, Shin (2020), _Structural Patterns and Generative Models of Real-world Hypergraphs_
+    - https://github.com/manhtuando97/KDD-20-Hypergraph
+    
+    
+### Included in this repo:
+
+- code to compute HyperCOT distances
+- demo notebook to generate hypergraphs from meshes and perform simple color transfer (requires `plotly`) as below:
+
+
+![meshes](figures/meshes.png)
+    
+### Getting started
+
