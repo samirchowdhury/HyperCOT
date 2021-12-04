@@ -38,5 +38,9 @@ Additionally, we utilize code from:
 
 ![meshes](figures/meshes.png)
     
-### Getting started
+### Getting started 
 
+- Try running the `run_simulated.ipynb` notebook. Here we load a dataset of 40 simulated hypergraphs and show how to compute HyperCOT distances for a pair of hypergraphs. Although we do not go through the full computation in the notebook, computing all the pairwise distances should yield a matrix as follows (plotted using `seaborn`):
+
+
+![matrix](figures/res_simulated.png)
