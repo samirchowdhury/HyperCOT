@@ -44,3 +44,9 @@ Additionally, we utilize code from:
 
 
 ![matrix](figures/res_simulated.png)
+
+
+
+### Extra
+
+To generate hypergraphs of the form in the header, please visit https://github.com/tdavislab/Hypergraph-Vis. 
