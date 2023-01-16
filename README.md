@@ -33,10 +33,11 @@ Additionally, we utilize code from:
 ### Included in this repo:
 
 - code to compute HyperCOT distances
-- demo notebook to generate hypergraphs from meshes and perform simple color transfer (requires `plotly`) as below:
+- demo notebook to perform multiscale matching (requires `plotly`) as below:
 
 
-![meshes](figures/meshes.png)
+![meshes](figures/centaur_nerves.png)
+![meshes](figures/centaur_transfer.png)
     
 ### Getting started 
 
